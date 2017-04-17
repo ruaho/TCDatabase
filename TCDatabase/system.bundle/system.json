@@ -1,0 +1,8 @@
+{
+    "table": "system",
+    "comment": "系统表",
+    "key": "SYSTEM_CODE",
+    "cols": [{"name": "SYSTEM_CODE", "type": "TEXT"},
+             {"name": "SYSTEM_NAME", "type": "TEXT"}],
+    "indexs": [{"columns":["SYSTEM_CODE", "SYSTEM_NAME"], "name":"IDX_SYSTEM_NAME"}]
+}
